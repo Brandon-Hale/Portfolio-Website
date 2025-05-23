@@ -14,8 +14,8 @@ const data = [
     value: '3',
   },
   {
-    label: 'Number of spoons',
-    value: '0',
+    label: 'Hours of Rust played',
+    value: '10,000',
   },
   {
     label: 'Number of linter warnings',
