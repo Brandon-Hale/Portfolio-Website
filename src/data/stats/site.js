@@ -1,44 +1,32 @@
-import dayjs from 'dayjs';
-
 /* Keys match keys returned by the github api. Fields without keys are
  * mostly jokes. To see everything returned by the github api, run:
  curl https://api.github.com/repos/mldangelo/personal-site
  */
 const data = [
   {
-    label: 'Years of programming experience',
-    value: '4',
+    label: 'First video game played (at age 3)',
+    value: 'Halo on Xbox',
   },
   {
     label: 'Number of video games I’ve ranked in the top 1%',
     value: '3',
   },
   {
-    label: 'Hours of Rust played',
-    value: '10,000',
+    label: 'Amount of hours sunk into Rust',
+    value: '9,364',
+    link: 'https://steamcommunity.com/id/ChilljamBH/',
   },
   {
-    label: 'Number of linter warnings',
-    value: '0', // enforced via github workflow
+    label: 'Ideal mouse sensitivity (dpi)',
+    value: '800',
   },
   {
-    label: 'Open github issues',
-    key: 'open_issues_count',
-    link: 'https://github.com/mldangelo/personal-site/issues',
+    label: 'Sporting championships won in my years',
+    value: '5',
   },
   {
-    label: 'Last updated at',
-    key: 'pushed_at',
-    link: 'https://github.com/mldangelo/personal-site/commits',
-    format: (x) => dayjs(x).format('MMMM DD, YYYY'),
-  },
-  {
-    // TODO update this with a pre-commit hook
-    /* find . | grep ".js" | grep -vE ".min.js|node_modules|.git|.json" |
-    xargs -I file cat file | wc -l */
     label: 'Lines of Javascript powering this website',
     value: '2150',
-    link: 'https://github.com/mldangelo/personal-site/graphs/contributors',
   },
 ];
 
