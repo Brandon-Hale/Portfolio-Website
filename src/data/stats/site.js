@@ -21,6 +21,10 @@ const data = [
     value: '800',
   },
   {
+    label: 'Favourite sport played growing up',
+    value: 'Baseball',
+  },
+  {
     label: 'Sporting championships won in my years',
     value: '5',
   },
