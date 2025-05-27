@@ -1,0 +1,11 @@
+{
+  "name": "bhale.com.au",
+  "icons": [
+    {
+      "src": "/images/favicon/bhlogo.ico",
+      "sizes": "64x64",
+      "type": "image/png",
+      "density": "1"
+    }
+  ]
+}
