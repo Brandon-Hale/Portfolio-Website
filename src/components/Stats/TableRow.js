@@ -2,16 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const TableRow = ({
-  label, link, value, format,
+  label, link, value,
 }) => (
   <tr>
     <td width="70%">{label}</td>
-    <td>{link ? <a href={link} target="noopener">{format(value)}</a> : format(value)}</td>
+    <td>{link ? <a href={link} target="noopener">{value}</a> : value}</td>
   </tr>
 );
 
 TableRow.propTypes = {
-  format: PropTypes.func,
   label: PropTypes.string.isRequired,
   link: PropTypes.string,
   value: PropTypes.oneOfType([
@@ -22,7 +21,6 @@ TableRow.propTypes = {
 };
 
 TableRow.defaultProps = {
-  format: (x) => x,
   link: null,
   value: null,
 };

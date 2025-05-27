@@ -8,7 +8,6 @@ const Table = ({ data }) => (
     <tbody>
       {data.map((pair) => (
         <TableRow
-          format={pair.format}
           key={pair.label}
           label={pair.label}
           link={pair.link}
@@ -22,7 +21,6 @@ const Table = ({ data }) => (
 Table.propTypes = {
   data: PropTypes.arrayOf(
     PropTypes.shape({
-      format: PropTypes.func,
       label: PropTypes.string.isRequired,
       link: PropTypes.string,
       value: PropTypes.oneOfType([
