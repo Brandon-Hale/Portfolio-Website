@@ -5,12 +5,6 @@ I'm a software engineer who thrives on modernising and optimising business syste
   
 Outside of work, I spend most of my time with mates—whether that’s gaming, hanging out, or getting way too competitive in sports. I’m also big on travel and always looking for new experiences and challenges wherever I can find them.
 
-# Some History
-
-- When living at my Grandma's house in 2007, at age 3 my first experience was with my first video game console an original Xbox. My favorite game (and only game we had) was Halo, versing my dad when he had time.
-
-Ask me in person for other stories that I'm afraid to share with the internet.
-
 # I Enjoy
 
 - Ginger Beer

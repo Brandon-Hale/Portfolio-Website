@@ -1,47 +1,60 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Oscar',
-    subtitle: 'Australian Institute of Management WA',
-    image: '/images/projects/nearestdollar.jpg',
+    title: 'Oscar - Australian Institute of Management WA',
+    subtitle: 'Oscar',
+    image: '/images/projects/stock1.jpg',
     date: '2025-01-9',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Built to streamline course delivery at AIM WA, '
+      + 'Oscar manages scheduling, tracks materials, and '
+      + 'automatically emails essential information to participants and coordinators. '
+      + 'It integrates with multiple sources of data to ensure all required materials are ready for each course. '
+      + '(Representative image used due to IP restrictions)',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'Drone Prediction Application - Thales',
+    subtitle: 'Drone Prediction Application',
+    image: '/images/projects/projectdronescan.png',
+    date: '2024-11-1',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'Developed for the goal to enhance drone threat analysis, '
+      + 'the application uses machine learning to predict drone paths and '
+      + 'likely future locations based on inputted flight patterns, '
+      + 'with the ability to trace movements back to a potential operator.',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'Tracker - Australian Institute of Management WA',
+    subtitle: 'Tracker',
+    image: '/images/projects/tracker.jpg',
+    date: '2024-10-1',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Tracker is a tool for running and managing custom private courses, '
+      + 'handling internal scheduling, resource allocation, and financial tracking, '
+      + 'to support efficient delivery and oversight of tailored training solutions. '
+      + '(Representative image used due to IP restrictions)',
+  },
+
+  {
+    title: 'Room Booking System - Australian Institute of Management WA',
+    subtitle: 'Room Booking System',
+    image: '/images/projects/rbs.png',
+    date: '2024-8-1',
+    desc:
+      'Application developed that manages room allocation for all courses and events, '
+      + 'tracks participant numbers, and handles catering requirements, '
+      + 'ensuring smooth logistical coordination for every session. '
+      + '(Representative image used due to IP restrictions)',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'Power BI Manufacturing Dashboard - Intellect Systems',
+    subtitle: 'Power BI Manufacturing Dashboard',
+    image: '/images/projects/dashboard.png',
+    date: '2024-4-1',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'The Power BI Manufacturing Dashboard consolidates data from time checks, '
+      + 'external reports, and project schedules to provide real-time insights '
+      + 'into resource availability and operational performance.',
   },
 ];
 
