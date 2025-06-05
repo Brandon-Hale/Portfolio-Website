@@ -8,29 +8,32 @@ const data = [
     value: 'Halo on Xbox',
   },
   {
-    label: 'Number of video games I’ve ranked in the top 1%',
-    value: '3',
+    label: 'Favourite sport played growing up',
+    value: 'Baseball',
   },
   {
     label: 'Amount of hours sunk into Rust',
     value: '9,364',
-    link: 'https://steamcommunity.com/id/ChilljamBH/',
   },
   {
-    label: 'Ideal mouse sensitivity (dpi)',
-    value: '800',
-  },
-  {
-    label: 'Favourite sport played growing up',
-    value: 'Baseball',
+    label: 'First coding language learned',
+    value: 'Java',
   },
   {
     label: 'Sporting championships won in my years',
     value: '5',
   },
   {
+    label: 'Screens in current setup',
+    value: '3',
+  },
+  {
     label: 'Lines of Javascript powering this website',
     value: '2150',
+  },
+  {
+    label: 'Bugs fixed with a single semicolon',
+    value: 'Too many',
   },
 ];
 
