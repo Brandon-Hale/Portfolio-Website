@@ -12,6 +12,12 @@ const courses = [
     university: 'Curtin',
   },
   {
+    title: 'Software Architecture and Extensible Design',
+    number: 'COMP3009',
+    link: 'https://handbook.curtin.edu.au/units/unit-ug-software-architecture-and-extensible-design--comp3003v2',
+    university: 'Curtin',
+  },
+  {
     title: 'Distributed Computing',
     number: 'COMP3008',
     link: 'https://handbook.curtin.edu.au/units/unit-ug-distributed-computing--comp3008v1',
