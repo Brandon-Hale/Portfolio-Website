@@ -1,33 +1,38 @@
 const skills = [
   {
-    title: 'Azure Devops',
-    competency: 5,
-    category: ['Backend', 'Tools'],
-  },
-  {
-    title: 'Javascript',
-    competency: 4,
-    category: ['Web Development', 'Languages', 'Javascript'],
-  },
-  {
-    title: '.NET Core',
-    competency: 5,
-    category: ['Backend', 'Web Development', 'Languages'],
-  },
-  {
     title: 'C#',
     competency: 5,
     category: ['Languages', 'Backend'],
   },
   {
-    title: 'Mustache',
+    title: '.NET Core/Framework',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
+    category: ['Backend', 'Web Development', 'Frameworks'],
   },
   {
-    title: 'SortableJS',
+    title: 'React',
+    competency: 4,
+    category: ['Web Development', 'Javascript', 'Frameworks'],
+  },
+  {
+    title: 'TypeScript',
     competency: 5,
-    category: ['Web Development', 'Javascript'],
+    category: ['Web Development', 'Languages', 'Javascript'],
+  },
+  {
+    title: 'JavaScript',
+    competency: 4,
+    category: ['Web Development', 'Languages', 'Javascript'],
+  },
+  {
+    title: 'SQL',
+    competency: 4,
+    category: ['Databases', 'Languages'],
+  },
+  {
+    title: 'HTML/CSS',
+    competency: 4,
+    category: ['Web Development', 'Languages'],
   },
   {
     title: 'Java',
@@ -35,69 +40,14 @@ const skills = [
     category: ['Languages'],
   },
   {
-    title: 'Node.JS',
+    title: 'Python',
     competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'React',
-    competency: 3,
-    category: ['Web Development', 'Javascript'],
-  },
-  {
-    title: 'Bash',
-    competency: 2,
-    category: ['Tools', 'Languages'],
-  },
-  {
-    title: 'Amazon Web Services',
-    competency: 3,
-    category: ['Web Development', 'Tools'],
-  },
-  {
-    title: 'SQL/MySQL',
-    competency: 4,
-    category: ['Web Development', 'Databases', 'Languages'],
-  },
-  {
-    title: 'Microsoft SQL Server',
-    competency: 5,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'REST API',
-    competency: 5,
-    category: ['Web Development', 'Backend', 'Javascript'],
-  },
-  {
-    title: 'Entity Framework',
-    competency: 5,
-    category: ['Backend', 'Web Development'],
-  },
-  {
-    title: 'Sentry',
-    competency: 4,
-    category: ['Backend', 'Javascript'],
-  },
-  {
-    title: 'Office 365',
-    competency: 5,
-    category: ['Tools'],
-  },
-  {
-    title: 'OAuth 2.0',
-    competency: 3,
-    category: ['Backend', 'Web Development'],
-  },
-  {
-    title: 'Google Recaptcha',
-    competency: 3,
-    category: ['Backend', 'Javascript', 'Web Development'],
+    category: ['Languages', 'AI'],
   },
   {
     title: 'Bootstrap',
-    competency: 5,
-    category: ['Web Development', 'Javascript'],
+    competency: 4,
+    category: ['Web Development', 'Frameworks'],
   },
   {
     title: 'Git',
@@ -105,39 +55,99 @@ const skills = [
     category: ['Tools'],
   },
   {
-    title: 'Microsoft Azure',
+    title: 'Azure',
     competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['Cloud', 'Tools'],
   },
   {
-    title: 'Microsoft Entra',
+    title: 'Azure AI Search',
     competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['AI', 'Cloud'],
   },
   {
-    title: 'Microsoft Active Directory',
+    title: 'Azure OpenAI',
     competency: 3,
-    category: ['Tools', 'Web Development'],
+    category: ['AI', 'Cloud'],
   },
   {
-    title: 'Typescript',
+    title: 'Amazon Web Services',
+    competency: 3,
+    category: ['Cloud', 'Tools'],
+  },
+  {
+    title: 'Azure DevOps',
     competency: 5,
-    category: ['Web Development', 'Languages', 'Javascript'],
+    category: ['Backend', 'Tools', 'CI/CD'],
   },
   {
-    title: 'HTML + SASS/SCSS/CSS',
+    title: 'SQL Server',
+    competency: 5,
+    category: ['Databases'],
+  },
+  {
+    title: 'Entity Framework Core',
+    competency: 5,
+    category: ['Backend', 'Databases', 'Frameworks'],
+  },
+  {
+    title: 'OAuth 2.0',
     competency: 4,
-    category: ['Web Development', 'Languages'],
+    category: ['Backend', 'Security'],
   },
   {
-    title: 'Python',
+    title: 'Power BI',
+    competency: 4,
+    category: ['Analytics', 'Tools'],
+  },
+  {
+    title: 'Node.js',
     competency: 3,
-    category: ['Languages'],
+    category: ['Backend', 'Javascript'],
   },
   {
-    title: 'Ruby',
+    title: 'RESTful API Design',
+    competency: 5,
+    category: ['Backend', 'Web Development'],
+  },
+  {
+    title: 'CI/CD Pipelines',
+    competency: 4,
+    category: ['DevOps', 'CI/CD'],
+  },
+  {
+    title: 'Database Optimization',
+    competency: 4,
+    category: ['Databases', 'Performance'],
+  },
+  {
+    title: 'Agile/Scrum',
+    competency: 4,
+    category: ['Methodologies'],
+  },
+  {
+    title: 'Test-Driven Development',
+    competency: 3,
+    category: ['Testing', 'Methodologies'],
+  },
+  {
+    title: 'System Architecture',
+    competency: 4,
+    category: ['Architecture'],
+  },
+  {
+    title: 'Machine Learning',
     competency: 2,
-    category: ['Languages'],
+    category: ['AI'],
+  },
+  {
+    title: 'Microsoft Graph API',
+    competency: 4,
+    category: ['Backend', 'Microsoft'],
+  },
+  {
+    title: 'Retrieval-Augmented Generation (RAG)',
+    competency: 3,
+    category: ['AI'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -155,6 +165,10 @@ const colors = [
   '#d75858',
   '#747fff',
   '#64cb7b',
+  '#8e44ad',
+  '#f39c12',
+  '#2ecc71',
+  '#e74c3c',
 ];
 
 const categories = [...new Set(skills.flatMap(({ category }) => category))]
