@@ -14,10 +14,11 @@ const Index = () => (
             <Link to="/">About this site</Link>
           </h2>
           <p>
-            This is my personal portfolio site — a space where I share my journey,
-            from education and work experience to projects and skills.
-            I’ve built it to be simple, easy to navigate,
-            and a reflection of who I am and what I enjoy doing in day to day life.
+            Welcome to my portfolio — showcasing my expertise as a Software Engineer
+            specialising in full-stack development, AI-driven solutions, and legacy
+            system modernisation. Here you&apos;ll find my professional journey, from
+            delivering enterprise applications with .NET and React to implementing
+            cutting-edge Azure AI solutions.
           </p>
         </div>
       </header>
