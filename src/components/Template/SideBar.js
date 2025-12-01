@@ -17,10 +17,14 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Brandon. I am a Software Engineer from {' '}
-        <a href="https://www.curtin.edu.au/" target="noopener">Curtin University</a>, skilled in .NET, TypeScript & React for modernising systems & websites.
-        Currently working at{' '}
-        <a href="https://aimwa.com/" target="noopener">Australian Institute of Management WA</a> as a Full Stack .NET Software Developer.
+        Hi, I&apos;m Brandon. I&apos;m a Software Engineer specialising in full-stack
+        development and AI-driven solutions. Currently delivering enterprise applications
+        at{' '}
+        <a href="https://aimwa.com/" target="_blank" rel="noopener noreferrer">
+          Australian Institute of Management WA
+        </a>{' '}
+        using .NET, React, and Azure AI technologies. Passionate about modernising
+        legacy systems and building scalable solutions that drive real business value.
       </p>
       <ul className="actions">
         <li>
