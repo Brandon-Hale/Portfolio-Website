@@ -13,77 +13,59 @@
  */
 const work = [
   {
-    name: 'Australian Institute of Management WA',
-    position: 'Full Stack .NET Developer',
+    name: 'Australian Institute of Management',
+    position: 'Full Stack Software Engineer',
     url: 'https://aimwa.com/',
-    startDate: '2024-07-29',
-    summary: `Australian Institute of Management WA (AIM WA) aims to 
-    inspire better workplaces through delivering high quality learning experiences, 
-    by celebrating and recognising excellence and by influencing conversations that matter
+    startDate: '2024-07-01',
+    summary: `Australian Institute of Management WA (AIM WA) aims to inspire better workplaces through delivering high quality learning experiences, by celebrating and recognising excellence and by influencing conversations that matter
     >85% of my time writing code.`,
     highlights: [
-      'Architect and design complex applications using C#, .NET Core, and Azure, ensuring high performance and reliability.',
-      'Implement and maintain secure RESTful APIs for seamless integration with third-party services and internal systems.',
-      'Develop automated CI/CD pipelines using Azure DevOps to streamline the deployment process.',
-      'Design and optimise SQL databases, including schema design, indexing, and query optimisation for enhanced performance.',
+      'Leveraged Azure AI Search and Azure Open AI to implement Retrieval-Augmented Generation (RAG) for intelligent document processing, enabling personalised customer feedback and actionable advice',
+      'Architected and delivered 5+ mission-critical enterprise applications using C# .NET Core, TypeScript and React, achieving 99.9% uptime and 40% reduction in system latency',
+      'Designed and implemented secure RESTful APIs serving 10,000+ daily requests with seamless third-party integrations',
+      'Built automated CI/CD pipelines using Azure DevOps, reducing deployment time by 80% and preventing recurring production errors',
+      'Optimised database performance through advanced SQL Server indexing and schema redesign, improving query speed by 45% and reducing report generation from minutes to seconds',
     ],
   },
   {
     name: 'Thales',
     position: 'Student Software Engineer',
     url: 'https://www.thalesgroup.com/en',
-    startDate: '2024-02-25',
-    endDate: '2024-11-24',
+    startDate: '2024-02-01',
+    endDate: '2024-11-01',
     summary: `Thales is a global technology leader investing in digital and “deep tech” innovations – Big Data, artificial intelligence, connectivity, cybersecurity and quantum technology – to build a future we can all trust.
     >30% of my time writing code.`,
     highlights: [
-      'Developed an advanced drone tracking system using AI to predict drone locations based on visual sightings.',
-      'Implemented machine learning algorithms to analyse drone movement patterns and enhance prediction accuracy.',
-      'Participated in Agile sprints to design, develop, and deploy the software solution, adhering to SDLC principles.',
-      'Developed and optimised software components in Java and Python, focusing on performance and maintainability.',
+      'Developed an AI-driven drone tracking system with machine learning algorithms to predict real-time locations from visual data',
+      'Delivered production-ready modules in Java and Python through full SDLC participation in Agile development environment',
+      'Collaborated with senior engineers on complex algorithm design and system integration challenges',
     ],
   },
   {
     name: 'Intellect Systems',
-    position: 'Information Technology Undergraduate',
+    position: 'Software Engineer Undergraduate',
     url: 'https://www.intellectsystems.com.au',
-    startDate: '2023-10-26',
-    endDate: '2024-07-14',
-    summary: `Smarter solutions for a better tomorrow. 
-    Intellect Systems are experts in developing bespoke turn-key operational technology solutions from concept to reality.
-    >60% of my time writing code`,
+    startDate: '2024-01-01',
+    endDate: '2024-07-01',
+    summary: `Smarter solutions for a better tomorrow. Intellect Systems are experts in developing bespoke turn-key operational technology solutions from concept to reality.
+    >60% of my time writing code.`,
     highlights: [
-      'Spearheading collaborative efforts among various departments to identify opportunities for software solutions that streamline processes and elevate operational efficiency.',
-      'Researching, implementing, and managing innovative software solutions aimed at addressing specific organisational challenges and driving continuous improvement.',
-      'Working closely under the guidance of the Managing Director, I assist in crucial decision-making processes and contribute to the strategic direction of our software initiatives.',
-      'Automated email systems for default documents increasing time efficiency by 85%, and reducing human error.',
-      'Implemented software seamlessly integrated into Microsoft systems for enhanced operational efficiency.',
+      'Facilitated technical workshops across 5+ departments, implementing automation solutions that reduced manual workflows by 30%',
+      'Developed business intelligence tools using Power BI and .NET, enhancing data-driven decision making capabilities',
+      'Partnered with C-level executives to align development initiatives with strategic objectives and long-term technical roadmaps',
+      'Delivered proof-of-concept solutions adopted company-wide, bridging technical design with business priorities',
     ],
   },
   {
-    name: 'Aidacare',
-    position: 'Warehouse Employee',
-    url: 'https://www.aidacare.com.au',
-    startDate: '2022-11-10',
-    endDate: '2023-10-10',
-    summary: `Aidacare is a leading provider of healthcare equipment and assistive technology for Hospitals, Residential Aged-Care Facilities, 
-    Home & Community Care and Rehabilitation.`,
+    name: 'Intellect Systems',
+    position: 'Software Engineer Intern',
+    url: 'https://www.intellectsystems.com.au',
+    startDate: '2023-11-01',
+    endDate: '2024-01-01',
+    summary: 'Internship position focused on automation and process improvement.',
     highlights: [
-      'Utilize inventory management software to track stock levels and optimize warehouse logistics.',
-      'Coordinate with suppliers to ensure timely delivery of medical supplies, improving overall distribution efficiency',
-    ],
-  },
-  {
-    name: 'Work Health Professionals',
-    position: 'Data Entry Lead',
-    url: 'https://www.workhealthonsite.com.au',
-    startDate: '2020-12-10',
-    endDate: '2022-06-10',
-    summary: `Work Health Professionals conduct audiometric testing, ear plug fit testing, health surveillance, spirometry, 
-    skin screening, noise surveys, air monitoring, drug and alcohol screening, vision screening and other medical assessments.`,
-    highlights: [
-      'Accurately input and manage workers compensation data in WorkCover WA database, ensuring compliance and data integrity.',
-      'Support office operations by handling data entry, document management, and administrative tasks.',
+      'Automated critical business processes, developing email dispatch systems that reduced human error by 70% and saved 10+ hours weekly',
+      'Built internal task tracking system from concept to deployment, achieving company-wide adoption',
     ],
   },
 ];
